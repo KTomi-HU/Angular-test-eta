@@ -1,0 +1,11 @@
+<!-- Feladat 1. -->
+<ul *ngFor="let newspaper of newspapers">
+  <li>{{ newspaper.name }}</li>
+</ul>
+<hr />
+
+<!-- Feladat 2. -->
+<div *ngFor="let book of books">
+  <app-book [model]="book"></app-book>
+</div>
+<hr />
